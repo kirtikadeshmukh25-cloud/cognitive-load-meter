@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cognitive Load Meter — Understand how heavy your writing is</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="brand">
+      <i data-lucide="brain"></i>
+      <span>Cognitive Load Meter</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#formulas">Formulas</a>
+      <a href="#faq">FAQ</a>
+      <a href="app.html" class="btn primary">
+        Open App <i data-lucide="arrow-right"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <span class="hero-badge">
+      <i data-lucide="sparkles"></i>
+      Free · No sign-up · Runs in your browser
+    </span>
+    <h1>Find out how heavy your writing <span class="accent">actually is.</span></h1>
+    <p class="hero-lead">
+      Paste any text. Get readability scores, a sentence-by-sentence heatmap,
+      and clear suggestions — in under a second.
+    </p>
+    <div class="hero-actions">
+      <a href="app.html" class="btn primary large">
+        <i data-lucide="play-circle"></i> Try it now
+      </a>
+      <a href="#how-it-works" class="btn ghost large">
+        <i data-lucide="info"></i> Learn more
+      </a>
+    </div>
+
+    <div class="hero-visual">
+      <div class="mock-card">
+        <div class="mock-header">
+          <i data-lucide="file-text"></i>
+          <span>Your text</span>
+        </div>
+        <div class="mock-heatmap">
+          <span class="s-easy">This sentence is easy to read.</span>
+          <span class="s-medium">This one has a few more syllables per word.</span>
+          <span class="s-hard">This particular sentence, however, contains an exceptionally high number of complex polysyllabic vocabulary terms.</span>
+        </div>
+      </div>
+      <div class="mock-stats">
+        <div class="mock-stat">
+          <span class="label">Flesch Score</span>
+          <span class="value">62.4</span>
+        </div>
+        <div class="mock-stat">
+          <span class="label">Grade Level</span>
+          <span class="value">9.1</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <h2 class="section-title">Everything a writer needs in one screen</h2>
+    <p class="section-subtitle">Six analyses run at once. No sign-up, no upload, no waiting.</p>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="gauge"></i></div>
+        <h3>Five readability scores</h3>
+        <p>Flesch, Flesch-Kincaid, Gunning Fog, SMOG, and ARI — the same formulas editors use.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="thermometer"></i></div>
+        <h3>Sentence heatmap</h3>
+        <p>Every sentence is color-coded green, yellow, or red based on difficulty.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="radar"></i></div>
+        <h3>Cognitive profile chart</h3>
+        <p>A radar chart shows exactly where your text gets heavy — length, syllables, or passive voice.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="lightbulb"></i></div>
+        <h3>Actionable suggestions</h3>
+        <p>Specific fixes: "3 sentences exceed 30 words — split them." Not vague advice.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="shield-check"></i></div>
+        <h3>100% private</h3>
+        <p>Your text never leaves your browser. No server, no tracking, no account.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><i data-lucide="download"></i></div>
+        <h3>Export to PDF</h3>
+        <p>Download a full report you can share with a client or editor.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section alt" id="how-it-works">
+    <h2 class="section-title">How it works</h2>
+    <p class="section-subtitle">Three steps. Nothing to install.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Paste your text</h3>
+        <p>Type, paste an article, or click "Sample text" to try with a demo.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Click Analyze</h3>
+        <p>The app splits it into sentences, counts syllables, and runs five readability formulas.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Read the report</h3>
+        <p>Scan the heatmap, check the radar chart, and apply the numbered suggestions.</p>
+      </div>
+    </div>
+
+    <div class="how-detail">
+      <h3>What the app measures</h3>
+      <div class="measure-grid">
+        <div class="measure">
+          <i data-lucide="text"></i>
+          <div>
+            <strong>Word and sentence counts</strong>
+            <p>Basic length, plus average words per sentence.</p>
+          </div>
+        </div>
+        <div class="measure">
+          <i data-lucide="volume-2"></i>
+          <div>
+            <strong>Syllable density</strong>
+            <p>Average syllables per word — the single strongest predictor of difficulty.</p>
+          </div>
+        </div>
+        <div class="measure">
+          <i data-lucide="alert-circle"></i>
+          <div>
+            <strong>Complex words</strong>
+            <p>Any word with 3+ syllables. Too many of these makes text feel academic.</p>
+          </div>
+        </div>
+        <div class="measure">
+          <i data-lucide="users"></i>
+          <div>
+            <strong>Passive voice</strong>
+            <p>Sentences like "the report was written" rather than "the team wrote the report".</p>
+          </div>
+        </div>
+        <div class="measure">
+          <i data-lucide="pen-tool"></i>
+          <div>
+            <strong>Adverb density</strong>
+            <p>Words ending in -ly. Many writers overuse them; fewer usually reads stronger.</p>
+          </div>
+        </div>
+        <div class="measure">
+          <i data-lucide="activity"></i>
+          <div>
+            <strong>Per-sentence difficulty</strong>
+            <p>Each sentence gets a 0-100 score based on length and syllables.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULAS -->
+  <section class="section" id="formulas">
+    <h2 class="section-title">The formulas behind the scores</h2>
+    <p class="section-subtitle">These are well-documented, peer-reviewed readability formulas — not opinions.</p>
+
+    <div class="formula-list">
+      <div class="formula-card">
+        <h3>Flesch Reading Ease</h3>
+        <p class="formula">206.835 − 1.015 × (words ÷ sentences) − 84.6 × (syllables ÷ words)</p>
+        <p>Higher is easier. 60-70 is standard; below 30 is college-level.</p>
+      </div>
+      <div class="formula-card">
+        <h3>Flesch-Kincaid Grade</h3>
+        <p class="formula">0.39 × (words ÷ sentences) + 11.8 × (syllables ÷ words) − 15.59</p>
+        <p>Returns the US school grade level needed to understand the text.</p>
+      </div>
+      <div class="formula-card">
+        <h3>Gunning Fog</h3>
+        <p class="formula">0.4 × (avg sentence length + 100 × complex word %)</p>
+        <p>Focuses on complex words. Aim for below 12 for general audiences.</p>
+      </div>
+      <div class="formula-card">
+        <h3>SMOG</h3>
+        <p class="formula">1.043 × √(complex words × 30 ÷ sentences) + 3.1291</p>
+        <p>The most conservative formula. Requires at least 30 sentences for accuracy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section alt" id="faq">
+    <h2 class="section-title">Frequently asked questions</h2>
+
+    <div class="faq-list">
+      <details>
+        <summary>Is my text stored or uploaded?</summary>
+        <p>No. Everything runs in your browser using JavaScript. The app never sends your text anywhere. You can disconnect from the internet after loading the page.</p>
+      </details>
+      <details>
+        <summary>What does "cognitive load" mean here?</summary>
+        <p>It's a measure of how much mental effort it takes to read the text. Long sentences, rare words, and passive voice all increase the effort.</p>
+      </details>
+      <details>
+        <summary>Can I use this for my school essay?</summary>
+        <p>Yes. It's useful for any writing — essays, blog posts, emails, technical documentation, or presentations.</p>
+      </details>
+      <details>
+        <summary>Why is the SMOG score so high sometimes?</summary>
+        <p>SMOG is designed for short health-communication texts and is more conservative than other formulas. For short texts, trust Flesch and Gunning Fog more.</p>
+      </details>
+      <details>
+        <summary>Is the syllable count perfect?</summary>
+        <p>No syllable counter is perfect for English. This one uses the standard regex heuristic, which is correct for 90-95% of words. Good enough to guide editing.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Ready to see your scores?</h2>
+    <p>It takes about three seconds.</p>
+    <a href="app.html" class="btn primary large">
+      <i data-lucide="play-circle"></i> Open the app
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Built with HTML, CSS, and vanilla JavaScript. No frameworks, no tracking.</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>

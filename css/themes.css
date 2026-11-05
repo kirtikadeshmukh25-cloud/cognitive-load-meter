@@ -1,0 +1,16 @@
+:root {
+  /* Light green + white palette */
+  --bg: #f3f8f2;
+  --surface: #ffffff;
+  --surface-2: #eef7ec;
+  --border: #d4e6d2;
+  --text: #1f3a24;
+  --text-muted: #5a7a5f;
+  --primary: #2e8b3e;
+  --primary-hover: #247030;
+  --primary-soft: #e6f4e5;
+  --easy: #3ecf8e;
+  --medium: #f5a623;
+  --hard: #ef4444;
+  --shadow: 0 2px 12px rgba(46, 139, 62, 0.08);
+}
